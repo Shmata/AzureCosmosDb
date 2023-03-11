@@ -12,7 +12,7 @@ namespace EmployeeManagement.Data.Common
         public static async Task<CloudTable> CreateTableAsync(string tableName)
         {
             // in order to check our connection string is valid or not 
-            string connectionString = "YOUR_CONNECTIONSTRING_GOES_HERE";
+            string connectionString = "DefaultEndpointsProtocol=https;AccountName=shahabdbuser;AccountKey=vXU61gzLDz6C1C5Nwig9HO5lAitKIOI85jXbgtFvMZzicuwE9y772smA7ooD9EUJ9W836rlsW3xaACDbT9oTfg==;TableEndpoint=https://shahabdbuser.table.cosmos.azure.com:443/;";
             CloudStorageAccount cloudStorageAccount;
             if(CloudStorageAccount.TryParse(connectionString, out cloudStorageAccount)) 
             {
