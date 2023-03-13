@@ -1,4 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
+
 using EmployeeManagement.Data.Common;
 using EmployeeManagement.Data.Operations;
 
