@@ -32,6 +32,8 @@ namespace EmployeeManagement.Data.Operations
                 // delete a record 
                 EmployeeEntity entity = RetrieveSingleRecord(cloudTable, "Manual RK", "Manual PK");
                 DeleteRecord(cloudTable, entity);
+                
+                // I need to orgnize CRUD operations in future.
 
             }
             catch (Exception)
